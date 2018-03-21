@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.diazbumma.fragmentapplication.MainActivity">
+
+    <!--TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="25sp"
+        android:text="CALCULATOR"
+        />
+    <fragment
+        android:id="@+id/fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.diazbumma.fragmentapplication.BlankFragment"
+        tools:layout="@layout/fragment_blank"
+        />
+    <TextView
+        android:id="@+id/text_hasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="RESULT"
+        /-->
+    <!--TODO papb 21/3/2018-->
+    <!--TODO (1) add "implementation 'com.android.support:design:26.+'" to build.gradle(Module: app) on dependencies -->
+    <!--TODO (2) add this xml tag.. yo kui lah males nulis with these specific attributes-->
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tab_layout"
+        android:background="@color/colorPrimary"
+        app:tabIndicatorColor="@color/colorAccent"
+        app:tabSelectedTextColor="@color/putih"
+        />
+    <!-- TODO(3) and add this xml tag too.. -->
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/pager"
+        />
+    <!-- TODO (4) make new java class: PagerAdapter inside com directory-->
+</LinearLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Fragment Application</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bil_satu">Bilangan Satu</string>
+    <string name="bil_dua">Bilangan Dua</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="kali">*</string>
+    <string name="bagi">/</string>
+    <dimen name="padding_app">20dp</dimen>
+    <dimen name="p_button">48dp</dimen>
+    <dimen name="hasil">100sp</dimen>
+</resources>
