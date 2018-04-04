@@ -35,6 +35,9 @@ public class MainActivity extends AppCompatActivity
         PagerAdapter adapter = new PagerAdapter(getSupportFragmentManager(), mTabLayout.getTabCount());
         mViewPager.setAdapter(adapter);
 
+        // TODO (18) addOnPageChangeListener
+        mViewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(mTabLayout));
+
         // TODO (14) call addOnTableSelctedListener on mTabLayout
         // TODO (15) declare new parameter TabLayout.OnTableSelectedListener
         mTabLayout.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {

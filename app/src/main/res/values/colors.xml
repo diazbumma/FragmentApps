@@ -4,5 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="putih">#FFFFFF</color>
+    <color name="azure">#F0FFFF</color>
     <color name="calcBackground">#5a4646</color>
 </resources>
